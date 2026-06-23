@@ -64,17 +64,23 @@ export default function JoinCTA() {
           {/* Member avatars row */}
           <div className="relative z-10 flex items-center justify-center gap-3 mt-8">
             <div className="flex -space-x-2">
-              {["#8B5CF6", "#EC4899", "#06B6D4", "#10B981", "#F59E0B"].map(
-                (c, i) => (
-                  <div
-                    key={i}
-                    className="w-8 h-8 rounded-full border-2 border-black flex items-center justify-center text-white text-xs font-bold"
-                    style={{ backgroundColor: c }}
-                  >
-                    {String.fromCharCode(65 + i)}
-                  </div>
-                ),
-              )}
+              {[
+                "https://cdn.discordapp.com/avatars/955695820999639120/cf296ec1b2af5b10746bb89dbd24fc38.webp?size=96",
+                "https://cdn.discordapp.com/avatars/380987045008506880/4544bf7a183195600feefa78596578eb.webp?size=40",
+                "https://cdn.discordapp.com/avatars/847851585706393652/1eae2121f1537af4a3c3c4836d9c9bfc.webp?size=96",
+                "https://cdn.discordapp.com/avatars/927288268054229062/349d2011d76e055e12de1fc71644ef6f.webp?size=96",
+                "https://cdn.discordapp.com/avatars/903540976449097749/1a6aad52b59261e32fa66a96c915adcb.webp?size=96",
+                "https://cdn.discordapp.com/avatars/1418496947240697876/83c7517e2f0e45d91edf4aee0cfd91b5.webp?size=96",
+              ].map((c, i) => (
+                <img
+                  key={i}
+                  src={c}
+                  className="w-8 h-8 rounded-full border-2 border-black flex items-center justify-center text-white text-xs font-bold"
+                  //   style={{ backgroundColor: c }}
+                >
+                  {/* {String.fromCharCode(65 + i)} */}
+                </img>
+              ))}
             </div>
             <span className="text-white/40 text-sm">
               1100+ devs waiting for you
