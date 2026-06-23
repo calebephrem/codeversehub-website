@@ -54,7 +54,7 @@ export default function JoinCTA() {
           </div>
 
           <p className="relative z-10 text-white/50 text-base md:text-lg max-w-xl mx-auto mb-10">
-            1100+ developers helping each other ship code, review PRs, learn new
+            1700+ developers helping each other ship code, review PRs, learn new
             skills, and build careers. All for free, all on Discord.
           </p>
 
@@ -97,7 +97,7 @@ export default function JoinCTA() {
               ))}
             </div>
             <span className="text-white/40 text-sm">
-              1100+ devs waiting for you
+              1700+ devs waiting for you
             </span>
           </div>
         </div>
