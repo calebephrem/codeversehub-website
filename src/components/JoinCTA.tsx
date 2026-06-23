@@ -1,5 +1,7 @@
 "use client";
 
+import ShinyText from "./ShinyText";
+
 export default function JoinCTA() {
   return (
     <section className="relative bg-black overflow-hidden py-24 md:py-32 px-4">
@@ -34,8 +36,20 @@ export default function JoinCTA() {
             <h2 className="text-3xl sm:text-4xl md:text-6xl font-extrabold text-white">
               Your next breakthrough
             </h2>
-            <h2 className="text-3xl sm:text-4xl md:text-6xl font-extrabold bg-gradient-to-r from-violet-400 to-fuchsia-400 bg-clip-text text-transparent">
-              starts in a chat.
+            <h2>
+              <ShinyText
+                text="starts in a chat."
+                className="text-4xl sm:text-5xl md:text-6xl xl:text-7xl font-extrabold leading-[1.05] tracking-tight bg-gradient-to-r from-violet-300 via-fuchsia-400 to-indigo-300 bg-clip-text text-transparent"
+                speed={2}
+                delay={0.5}
+                color="#ea73ff"
+                shineColor="#c4b5ff"
+                spread={120}
+                direction="left"
+                yoyo={false}
+                pauseOnHover={false}
+                disabled={false}
+              />
             </h2>
           </div>
 

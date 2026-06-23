@@ -13,6 +13,7 @@ import Features from "@/components/Features";
 import TechMarquee from "@/components/TechMarquee";
 import TerminalWindow from "@/components/TerminalWindow";
 import { ArrowRight, Star, Zap } from "lucide-react";
+import ShinyText from "@/components/ShinyText";
 
 export default function Home() {
   return (
@@ -72,9 +73,22 @@ export default function Home() {
                 <h1 className="text-4xl sm:text-5xl md:text-6xl xl:text-7xl font-extrabold text-white leading-[1.05] tracking-tight">
                   Build faster with a
                 </h1>
-                <h1 className="text-4xl sm:text-5xl md:text-6xl xl:text-7xl font-extrabold leading-[1.05] tracking-tight bg-gradient-to-r from-violet-300 via-fuchsia-400 to-indigo-300 bg-clip-text text-transparent">
-                  real developer community
+                <h1>
+                  <ShinyText
+                    text="Real Developer Community"
+                    className="text-4xl sm:text-5xl md:text-6xl xl:text-7xl font-extrabold leading-[1.05] tracking-tight bg-gradient-to-r from-violet-300 via-fuchsia-400 to-indigo-300 bg-clip-text text-transparent"
+                    speed={2}
+                    delay={0.5}
+                    color="#ea73ff"
+                    shineColor="#c4b5ff"
+                    spread={120}
+                    direction="left"
+                    yoyo={false}
+                    pauseOnHover={false}
+                    disabled={false}
+                  />
                 </h1>
+
                 <p className="text-white/70 text-base sm:text-lg md:text-xl leading-relaxed max-w-xl">
                   CodeVerse Hub is your always-on Discord for code reviews, open
                   source teams, mentorship, and instant help — designed for
