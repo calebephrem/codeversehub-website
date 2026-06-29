@@ -225,7 +225,7 @@ export default function TerminalWindow() {
             cvh ~ dev session
           </span>
           <span className="ml-auto text-white/20 text-xs font-mono">
-            1700+ members online
+            1800+ members online
           </span>
         </div>
       </div>

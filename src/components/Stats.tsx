@@ -86,7 +86,7 @@ export default function Stats() {
         Check the numbers out!
       </h2>
       <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12 lg:gap-20 max-w-6xl">
-        <StatItem value={1700} suffix="+" label="Members" inView={inView} />
+        <StatItem value={1800} suffix="+" label="Members" inView={inView} />
         <StatItem value={10} suffix="+" label="OSS Projects" inView={inView} />
         <StatItem value={100} suffix="+" label="Resources" inView={inView} />
         <StatItem
